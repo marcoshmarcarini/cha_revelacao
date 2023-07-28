@@ -1,3 +1,6 @@
+.txtContent{
+    transform: translateY(-30px);
+}
 .txtNome{
     font-size: 1.7rem;
 }

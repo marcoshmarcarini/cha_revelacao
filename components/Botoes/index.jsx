@@ -15,7 +15,7 @@ export default function Botoes(){
     const localizacao = `https://goo.gl/maps/hvgujw73y5cQNfve8`
 
     return(
-        <div className={`flex gap-5`}>
+        <div className={`flex gap-5 ${styles.btnContent}`}>
             <Link href={url} className={`${styles.btn} ${mont.className} bg-verde hover:bg-green-600 transition`}>
                 <Image src={`images/whats.svg`} width={20} height={20} /> Confirmar
             </Link>

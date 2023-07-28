@@ -16,7 +16,7 @@ const dancingScript = Dancing_Script({
 
 export default function Texto(){
     return(
-        <div className={`pl-2 pr-2`}>
+        <div className={`pl-2 pr-2 ${styles.txtContent}`}>
             <p className={`${comicNeue.className} text-center text-cinza`}>Estamos felizes com a chegada do nosso 1º bebê e você é nosso convidado para participar desse momento tão especial.</p>
             <p className={`${comicNeue.className} text-center text-cinza`}>Vamos descobrir juntos se teremos</p>
             <p className={`${comicNeue.className} text-center text-cinza`}><span className={`${dancingScript.className} ${styles.txtNome} text-rosa`}>Giovanna</span> ou <span className={`${dancingScript.className} ${styles.txtNome} text-verde`}>Matheus</span> em nossas vidas!</p>

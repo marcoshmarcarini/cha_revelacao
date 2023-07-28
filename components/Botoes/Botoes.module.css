@@ -1,3 +1,6 @@
+.btnContent{
+    transform: translateY(-30px);
+}
 .btn{
     display: flex;
     align-items: center;

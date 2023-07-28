@@ -1,3 +1,6 @@
+.fraldasContent{
+    transform: translateY(-20px);
+}
 .txtFralda{
     font-size: 1.7rem;
     font-weight: 800;
