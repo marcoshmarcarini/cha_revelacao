@@ -1,0 +1,9 @@
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
