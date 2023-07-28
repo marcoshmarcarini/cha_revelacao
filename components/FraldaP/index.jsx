@@ -7,10 +7,10 @@ const dancingScript = Dancing_Script({
     display:'swap'
 })
 
-export default function FraldasP(){
+export default function FraldasP({tamanho}){
     return(
         <div className={`flex justify-center ${styles.fraldasContent}`}>
-            <p className={`${dancingScript.className} ${styles.txtFralda} text-center text-verde`}>Fralda P</p>
+            <p className={`${dancingScript.className} ${styles.txtFralda} text-center text-verde`}>Fralda {tamanho}</p>
         </div>
     )
 }
