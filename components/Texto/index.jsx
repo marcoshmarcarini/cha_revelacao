@@ -23,7 +23,7 @@ export default function Texto(){
             <p className={`${comicNeue.className} text-center text-cinza`}>O Nosso</p>
             <p className={`${dancingScript.className} ${styles.txtRevela} text-center text-verde`}>Chá Revelação</p>
             <p className={`${comicNeue.className} text-center text-cinza`}>será no dia 19 de agosto de 2023</p>
-            <p className={`${dancingScript.className} ${styles.txthora} text-center text-rosa`}>Sábado às 13h</p>
+            <p className={`${dancingScript.className} ${styles.txthora} text-center text-rosa`}>Sábado às 13h30</p>
             <p className={`${comicNeue.className} text-center text-cinza`}>Em São Joaquim</p>
             <p className={`${comicNeue.className} text-center text-cinza`}>Confirme sua presença até o dia 15/08.</p>
         </div>

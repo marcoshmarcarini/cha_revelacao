@@ -12,7 +12,7 @@ const mont = Montserrat({
 export default function Botoes(){
     const text = `Presença Confirmada.`
     const url = `https://wa.me/5528999220322/?text=${text.replace(' ', '%20')}`
-    const localizacao = `https://goo.gl/maps/hvgujw73y5cQNfve8`
+    const localizacao = `https://goo.gl/maps/y1UZXbPaE3yR4FpTA`
 
     return(
         <div className={`flex gap-5 ${styles.btnContent}`}>
